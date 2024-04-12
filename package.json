@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-study",
+  "version": "1.0.0",
+  "description": "Building a Blockchain Prototype: https://www.udemy.com/course/build-a-blockchain-in-javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthazen/blockchain-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rthazen/blockchain-study/issues"
+  },
+  "homepage": "https://github.com/rthazen/blockchain-study#readme",
+  "dependencies": {
+    "npm": "^10.5.2"
+  }
+}
