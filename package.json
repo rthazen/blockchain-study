@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rthazen/blockchain-study#readme",
   "dependencies": {
-    "npm": "^10.5.2"
+    "npm": "^10.5.2",
+    "sha256": "^0.2.0"
   }
 }
