@@ -4,7 +4,8 @@
   "description": "Building a Blockchain Prototype: https://www.udemy.com/course/build-a-blockchain-in-javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js dev/api.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
   },
   "homepage": "https://github.com/rthazen/blockchain-study#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
     "npm": "^10.5.2",
-    "sha256": "^0.2.0"
+    "sha256": "^0.2.0",
+    "uuid": "^10.0.0"
   }
 }
