@@ -19,4 +19,6 @@ need to run `npm run node_1` or whichever node you want to run to start up the s
 - http://localhost:3003/block-explorer to see the ui and use the search, like (http://localhost:3001/address/8c6bb86f46844883b04443024f0e6b70)
 - hit http://localhost:3005/consensus if the blockchains are out of sink
 
-created a Postman collection of the transaction-broadcast and /register-and-broadcast-node to get the nodes connected
+- created a Postman collection of the /transaction/broadcast and /register-and-broadcast-node to get the nodes connected
+
+- improvements: error handling, validate transactions and make sure sender has enough, expand block data (user data?, whatever you want)
